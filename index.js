@@ -15,9 +15,10 @@ function nowServing(katzDeliLine)
 }
 
 
-var line = [];
+
 
 function currentLine(katzDeliLine) {
+  var line = []
   let i = 0;
   while (i < katzDeliLine.length) {
     line.push(` ` + i+0 + `. ` + katzDeliLine[i]), i++;
